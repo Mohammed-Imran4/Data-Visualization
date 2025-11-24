@@ -141,6 +141,12 @@ plt.subplot(2, 2, 1)
 plt.subplots()
 
 Preferred method are :
+a.Sharing Axes
+fig, ax = plt.subplots(2, 2, sharex=True, sharey=True)
+
+b.Tight Layout:
+Fixes spacing issues.
+plt.tight_layout()
 
 
 
