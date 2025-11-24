@@ -133,6 +133,14 @@ plt.grid(True)
 Figure Size:
 plt.figure(figsize=(8, 5))
 
+5. Subplots
+plt.subplot(r, c, i)
+Low-level way to create small multiple plots.
+plt.subplot(2, 2, 1)
+(2 rows, 2 columns, select first subplot)
+plt.subplots()
+
+Preferred method are :
 
 
 
