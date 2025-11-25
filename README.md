@@ -153,10 +153,16 @@ Use predefined style
 plt.style.use("ggplot")
 plt.style.use("seaborn")
 
-Custom Colors
+d.Custom Colors
 Name → "blue"
 HEX → "#ff9800"
 RGB → (0.2, 0.4, 0.6)
+
+f.Saving Figures
+plt.savefig("plot.png", dpi=300)
+
+dpi=300 → high quality:
+Can save as PNG, JPG, PDF, SVG
 
 
 
