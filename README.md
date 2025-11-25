@@ -148,69 +148,15 @@ b.Tight Layout:
 Fixes spacing issues.
 plt.tight_layout()
 
+c.Styles & Themes
+Use predefined style
+plt.style.use("ggplot")
+plt.style.use("seaborn")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Custom Colors
+Name → "blue"
+HEX → "#ff9800"
+RGB → (0.2, 0.4, 0.6)
 
 
 
